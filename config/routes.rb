@@ -1,4 +1,16 @@
 Delta::Application.routes.draw do
+  resources :incidents
+
+  resources :structures
+
+  resources :worlds
+
+  resources :inhabitants
+
+  resources :fields
+
+  resources :directors
+
   resources :players
 
   # The priority is based upon order of creation: first created -> highest priority.

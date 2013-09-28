@@ -1,4 +1,4 @@
-class Player
+class Inhabitant
   include Mongoid::Document
   include Mongoid::Timestamps
   field :name, type: String

@@ -31,6 +31,12 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem "devise"
+gem "meta_search"
+gem "ransack"
+gem "activeadmin", git: "https://github.com/gregbell/active_admin.git"
+gem "activeadmin-mongoid", git: "https://github.com/elia/activeadmin-mongoid.git"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
